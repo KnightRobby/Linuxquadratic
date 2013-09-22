@@ -14,8 +14,8 @@ to install Linuxquadratic equation :
 dependencies :
 gcc, qmake, make.
 
-1- greate a new directory to build the application using "mkdir build" for example
+1- create a new directory to build the application using "mkdir build" for example
 
 2- access the created directory using "cd build"
 
-3- build the application on that directory using "qmake path/to/linuxquadratic" then "make"
+3- build the application on this directory using "qmake path/to/linuxquadratic && make"
