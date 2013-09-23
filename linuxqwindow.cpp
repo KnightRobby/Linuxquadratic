@@ -27,8 +27,8 @@ void LinuxQWindow::on_calcualte_clicked()
     if(delta == 0) {
         ui->eqcase->setText("The equation has equal solution");
         ui->delta->setNum(delta);
-        double x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 *a);
-        double x2 = (-b - sqrt(b * b - 4 * a * c)) / (2 *a);
+        double x1 = (-b + sqrt(delta)) / (2 *a);
+        double x2 = (-b - sqrt(delta)) / (2 *a);
         ui->x1->setNum(x1);
         ui->x2->setNum(x2);
     } else if (delta <= 0) {
