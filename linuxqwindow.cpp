@@ -38,8 +38,8 @@ void LinuxQWindow::on_calcualte_clicked()
         ui->x2->setText("None");
     } else {
     ui->eqcase->setText("The equation has tow solutions");
-    double x1 = (-b + sqrt(b * b - 4 * a * c)) / (2 *a);
-    double x2 = (-b - sqrt(b * b - 4 * a * c)) / (2 *a);
+    double x1 = (-b + sqrt(delta)) / (2 *a);
+    double x2 = (-b - sqrt(delta)) / (2 *a);
     ui->delta->setNum(delta);
     ui->x1->setNum(x1);
     ui->x2->setNum(x2);
