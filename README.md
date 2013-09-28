@@ -18,4 +18,4 @@ gcc, qmake, make.
 
 2- access the created directory using "cd build"
 
-3- build the application on this directory using "qmake path/to/linuxquadratic && make"
+3- build the application on this directory using "qmake /path/to/linuxquadratic && make"
